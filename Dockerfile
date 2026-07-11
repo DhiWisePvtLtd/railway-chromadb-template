@@ -1,0 +1,6 @@
+FROM chromadb/chroma:latest
+
+ENV IS_PERSISTENT=TRUE
+ENV PERSIST_DIRECTORY=/data
+
+EXPOSE 8000
